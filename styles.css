@@ -38,7 +38,7 @@ nav a {
 
 header h1{
     position: relative;
-    margin-top: 6rem;
+    margin-top: 7rem;
     text-align: center;
 }
 
@@ -129,4 +129,17 @@ article {
 
 .libre {
     font-family: 'Libre Baskerville';
+}
+
+footer {
+    position: absolute;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: gray;
+}
+
+footer p {
+    margin-left: 2rem;
 }
