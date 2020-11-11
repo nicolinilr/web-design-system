@@ -1,0 +1,28 @@
+html {
+    font-size: 16px;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0.5rem;
+}
+
+nav li {
+    display: inline-block;
+    background-color: #f5dd02;
+    margin: 0 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 12%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+
+}
