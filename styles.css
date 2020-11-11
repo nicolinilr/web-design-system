@@ -54,10 +54,11 @@ main {
     margin: 2rem 5rem;
 }
 
-#colors {
+article {
     background-color: gray;
     padding: 1rem 0 1rem 1rem;
     border: 3px dotted black;
+    margin: 2rem 0;
 }
 
 .color-container {
@@ -90,4 +91,42 @@ main {
 
 .lime {
     background-color: #11f005;
+}
+
+#fonts table {
+    text-align: center;
+    border: 1px solid black;
+    background-color: #11f005;
+    font-size: 1.5em;
+}
+
+
+
+#fonts td {
+    border: 1px solid black;
+    background-color: #F5DD02;
+    padding: 0 0.25rem;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic;
+}
+.roboto {
+    font-family: 'Roboto';
+}
+
+.goldman {
+    font-family: 'Goldman';
+}
+
+.lobster {
+    font-family: 'Lobster';
+}
+
+.libre {
+    font-family: 'Libre Baskerville';
 }
