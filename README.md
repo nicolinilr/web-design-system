@@ -14,4 +14,4 @@ Created as part of the Codecademy Full Stack Engineer course
 * CSS
 
 ## Setup
-To view, download files, and open index.html in the browser of your choice. Requires internet connection to download custom fonts from Google Fonts.
+To view, download files and open index.html in the browser of your choice. Requires internet connection to download custom fonts from Google Fonts.
