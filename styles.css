@@ -3,21 +3,30 @@ html {
     margin: 0;
 }
 
+body {
+    background-color: #05f5c5;
+}
+
 nav {
     background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 5rem;
 }
 
 nav ul{
     list-style: none;
-    padding: 0.5rem;
 }
 
 nav li {
     display: inline-block;
     background-color: #f5dd02;
     margin: 0 2rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     border-radius: 12%;
+    font-size: 1.5rem;
 }
 
 nav a {
@@ -25,4 +34,60 @@ nav a {
     color: black;
     font-weight: 800;
 
+}
+
+header h1{
+    position: relative;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+header h1 span {
+    background-color:  #f5dd02;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 5px solid black;
+}
+
+main {
+    position: relative;
+    margin: 2rem 5rem;
+}
+
+#colors {
+    background-color: gray;
+    padding: 1rem 0 1rem 1rem;
+    border: 3px dotted black;
+}
+
+.color-container {
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+    border: 8px solid black;
+}
+
+.color-showcase h2{
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.red {
+    background-color: red;
+}
+
+.teal {
+    background-color: #05f5c5;
+}
+
+.orange {
+    background-color: #f57105;
+}
+
+.yellow {
+    background-color: #f5dd02;
+}
+
+.lime {
+    background-color: #11f005;
 }
